@@ -19,7 +19,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hello"
+        android:text="Khushpreet Singh"
         tools:layout_editor_absoluteX="167dp"
         tools:layout_editor_absoluteY="202dp" />
 
