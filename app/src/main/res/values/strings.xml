@@ -3,4 +3,5 @@
     <string name="call">Call</string>
     <string name="text_message">message</string>
     <string name="voice_message">Audio</string>
+    <string name="button4">world</string>
 </resources>
