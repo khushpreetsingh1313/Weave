@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="NEW CONTACT"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+        <EditText
+            android:hint="First Name"
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Last Name"
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Phone Number"
+            android:id="@+id/PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Email Address"
+            android:id="@+id/EmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Contact" />
+
+    </LinearLayout>
+</RelativeLayout>

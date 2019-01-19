@@ -8,6 +8,9 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
     <dist:module dist:instant="true" />
 
     <application
@@ -17,17 +20,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".LogoutActivity">
-        </activity>
-        <activity android:name=".SignUpActivity">        </activity>
-        <activity android:name=".LoginActivity"
-            android:label="@string/title_activity_login">
+        <activity android:name=".ViewContactActivity"></activity>
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".AddContactsActivity" />
+        <activity android:name=".PhoneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
         <activity android:name=".MainActivity" />
     </application>
 
