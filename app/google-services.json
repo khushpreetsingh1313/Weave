@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "332499452009",
+    "firebase_url": "https://weave-8956b.firebaseio.com",
+    "project_id": "weave-8956b",
+    "storage_bucket": "weave-8956b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332499452009:android:f2d306983865cf9d",
+        "android_client_info": {
+          "package_name": "com.example.weave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332499452009-c2e37ti26jn151aeqvutpm26pahqtt51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1THKIHhI8gdjfY6GQtAke1Kjms0ZwcxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
