@@ -72,9 +72,6 @@ public class PhoneActivity extends AppCompatActivity {
         });
     }
 
-
-
-
     private void makePhoneCall() {
         String number = mEditTextNumber.getText().toString();
         if (number.trim().length() > 0) {

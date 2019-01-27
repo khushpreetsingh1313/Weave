@@ -22,26 +22,31 @@
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"/>
         <EditText
-            android:hint="First Name"
+            android:hint="First Name (Required)"
             android:id="@+id/FirstName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="text|textNoSuggestions" />
         <EditText
-            android:hint="Last Name"
+            android:hint="Last Name (Required)"
             android:id="@+id/LastName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="text|textNoSuggestions"/>
         <EditText
-            android:hint="Phone Number"
+            android:hint="Phone Number (Required)"
             android:id="@+id/PhoneNumber"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
         <EditText
-            android:hint="Email Address"
+            android:hint="Email Address (Optional)"
             android:id="@+id/EmailAddress"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
         <Button
+            android:id="@+id/CreateContact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Create Contact" />

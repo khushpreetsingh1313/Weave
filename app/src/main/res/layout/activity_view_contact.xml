@@ -10,16 +10,16 @@
         android:id="@+id/contactsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contacts"
         android:layout_centerHorizontal="true"
+        android:text="Contacts"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/listContacts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
         android:layout_alignBottom="@+id/contactsText"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-60dp" />
+        android:layout_marginBottom="-576dp" />
 </RelativeLayout>

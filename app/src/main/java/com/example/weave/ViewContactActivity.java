@@ -47,7 +47,7 @@ public class ViewContactActivity extends AppCompatActivity {
                         new String[]{id}, null);
                 while (cursor2.moveToNext()) {
                     String phoneNumber = cursor2.getString(cursor2.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-                    builder.append(name).append(", Phone Number : ").append(phoneNumber).append("\n\n");
+                    builder.append(name).append("\nPhone Number : ").append(phoneNumber).append("\n\n\n\n");
 
                 }
                 cursor2.close();
